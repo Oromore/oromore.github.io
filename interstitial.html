@@ -41,9 +41,7 @@
 <script>
   // Tell ArkTS to close this overlay
   function closeAd() {
-    try {
-      window.NexTubeAd.onAdClosed();
-    } catch(e) {}
+    try { window.NexTubeAd.onAdClosed(); } catch(e) {}
   }
 
   // Show close button after 10 seconds
